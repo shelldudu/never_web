@@ -8,8 +8,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Never" Version="1.0.0" />
-    <PackageReference Include="Never.Web" Version="1.0.0" />
+    <PackageReference Include="Never" Version="1.0.1" />
+    <PackageReference Include="Never.Web" Version="1.0.1" />
   </ItemGroup>
 
   <ItemGroup Condition="'$(TargetFramework)' == 'netstandard2.0'">

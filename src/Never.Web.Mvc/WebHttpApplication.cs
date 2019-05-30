@@ -31,12 +31,12 @@ namespace Never.Web.Mvc
         /// <summary>
         /// 启动程序
         /// </summary>
-        public ApplicationStartup Startup { get; private set; }
+        private ApplicationStartup Startup;
 
         /// <summary>
         /// 启动事件
         /// </summary>
-        public StartupEventArgs StartupEvents { get; private set; }
+        private StartupEventArgs StartupEvents;
 
         /// <summary>
         /// 正在启动
@@ -70,7 +70,7 @@ namespace Never.Web.Mvc
         /// <param name="e"></param>
         protected virtual void Application_EndRequest(object sender, EventArgs e)
         {
-            ContainerContext.Current?.ScopeTracker?.CleanScope();
+            ContainerContext.Current?.ServiceLocator?.ScopeTracker?.CleanScope();
         }
     }
 }
