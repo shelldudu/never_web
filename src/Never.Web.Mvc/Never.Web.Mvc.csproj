@@ -20,8 +20,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Never" Version="1.0.1" />
-    <PackageReference Include="Never.Web" Version="1.0.1" />
+    <PackageReference Include="Never" Version="1.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Never.Web\Never.Web.csproj" />
   </ItemGroup>
   
   <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net461|AnyCPU'">

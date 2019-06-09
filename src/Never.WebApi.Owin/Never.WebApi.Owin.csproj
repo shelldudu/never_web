@@ -10,11 +10,11 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNet.WebApi.Core" Version="5.2.7" />
     <PackageReference Include="Microsoft.Owin" Version="4.0.0" />
-    <PackageReference Include="Never" Version="1.0.1" />
-    <PackageReference Include="Never.Web" Version="1.0.1" />
+    <PackageReference Include="Never" Version="1.0.3" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Never.Web.WebApi\Never.Web.WebApi.csproj" />
+    <ProjectReference Include="..\Never.Web\Never.Web.csproj" />
   </ItemGroup>
 </Project>

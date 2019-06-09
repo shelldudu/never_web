@@ -4,7 +4,6 @@ using Never.Mappers;
 using Never.Security;
 using Never.Serialization;
 using Never.Web;
-using Never.Net;
 using Never.Web.WebApi.Results;
 using Never.Web.WebApi.DataAnnotations;
 using System;

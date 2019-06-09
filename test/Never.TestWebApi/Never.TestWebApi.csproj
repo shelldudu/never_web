@@ -16,13 +16,13 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Never" Version="1.0.1" />
+    <PackageReference Include="Never" Version="1.0.3" />
     <PackageReference Include="Never.Configuration" Version="1.0.0" />
-    <PackageReference Include="Never.Web" Version="1.0.1" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\..\src\Never.Web.WebApi\Never.Web.WebApi.csproj" />
+    <ProjectReference Include="..\..\src\Never.Web\Never.Web.csproj" />
   </ItemGroup>
   
   <ItemGroup>

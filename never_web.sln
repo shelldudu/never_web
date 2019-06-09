@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.28917.181
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.645
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Never.Web.Mvc", "src\Never.Web.Mvc\Never.Web.Mvc.csproj", "{A632FDB6-27B5-411C-89D2-42C5C6ABD3EB}"
 EndProject
@@ -16,6 +16,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Never.TestWebApi", "test\Never.TestWebApi\Never.TestWebApi.csproj", "{CFBD6DB5-96B5-41A9-8EA6-0F132C0EF008}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Never.TestMvc", "test\Never.TestMvc\Never.TestMvc.csproj", "{60177A6A-35BB-4528-8098-6838C9BDBA41}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Never.Web", "src\Never.Web\Never.Web.csproj", "{1229E8FE-03B4-4C8B-AAB2-4AE4FAB03E2C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +49,10 @@ Global
 		{60177A6A-35BB-4528-8098-6838C9BDBA41}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{60177A6A-35BB-4528-8098-6838C9BDBA41}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{60177A6A-35BB-4528-8098-6838C9BDBA41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1229E8FE-03B4-4C8B-AAB2-4AE4FAB03E2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1229E8FE-03B4-4C8B-AAB2-4AE4FAB03E2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1229E8FE-03B4-4C8B-AAB2-4AE4FAB03E2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1229E8FE-03B4-4C8B-AAB2-4AE4FAB03E2C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -56,7 +62,7 @@ Global
 		{60177A6A-35BB-4528-8098-6838C9BDBA41} = {94542E2B-33AA-4674-883C-72D8891768E2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.2\lib\NET35
 		SolutionGuid = {98FF3BAD-84CC-482A-91DB-F008915B25CC}
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.2\lib\NET35
 	EndGlobalSection
 EndGlobal
