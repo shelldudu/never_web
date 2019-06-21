@@ -199,11 +199,6 @@ namespace Never.Web.WebApi.Controllers
         protected IJsonSerializer JsonSerializer { get; private set; }
 
         /// <summary>
-        /// 下载器
-        /// </summary>
-        protected IHttpDownloader HttpDownloader { get; set; }
-
-        /// <summary>
         /// 当前用户信息
         /// </summary>
         protected IUser CurrentUser
@@ -244,7 +239,6 @@ namespace Never.Web.WebApi.Controllers
         protected BasicController(IJsonSerializer jsonSerializer)
         {
             this.JsonSerializer = jsonSerializer;
-            this.HttpDownloader = new WebRequestDownloader();
         }
 
         #endregion ctor

@@ -208,11 +208,6 @@ namespace Never.Web.Mvc.Controllers
         /// </summary>
         protected IJsonSerializer JsonSerializer { get; private set; }
 
-        /// <summary>
-        /// 下载器
-        /// </summary>
-        protected IHttpDownloader HttpDownloader { get; set; }
-
         #endregion prop
 
         #region ctor
@@ -232,7 +227,6 @@ namespace Never.Web.Mvc.Controllers
         protected BasicController(IJsonSerializer jsonSerializer)
         {
             this.JsonSerializer = jsonSerializer;
-            this.HttpDownloader = new WebRequestDownloader();
         }
 
         #endregion ctor
